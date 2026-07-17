@@ -1,0 +1,49 @@
+{
+  "siteName": "Northstar Ops Console",
+  "clarityRegistration": "pending",
+  "intendedWorkflow": "Weekly UX defect analysis",
+  "pages": [
+    {
+      "url": "/",
+      "name": "Workspace Overview",
+      "components": ["hero-cta", "audit-board", "activity-rail", "mobile-navigation"]
+    },
+    {
+      "url": "/pricing",
+      "name": "Pricing",
+      "components": ["plan-selector", "billing-toggle", "comparison-table", "sticky-upgrade"]
+    },
+    {
+      "url": "/checkout",
+      "name": "Checkout",
+      "components": ["checkout-form", "coupon-entry", "payment-summary", "mobile-sticky-footer"]
+    },
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "components": ["date-filter", "kpi-grid", "chart-tabs", "export-control"]
+    },
+    {
+      "url": "/support",
+      "name": "Support",
+      "components": ["help-search", "article-list", "assistant-panel", "quickback-article"]
+    },
+    {
+      "url": "/account",
+      "name": "Account",
+      "components": ["profile-form", "permission-toggles", "save-state", "billing-card"]
+    }
+  ],
+  "seededSignals": [
+    "dead_click",
+    "rage_click",
+    "excessive_click",
+    "quick_back",
+    "javascript_error",
+    "layout_shift",
+    "mobile_overlap",
+    "small_touch_target",
+    "false_positive_interaction",
+    "accessibility_gap"
+  ]
+}
