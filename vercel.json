@@ -1,13 +1,7 @@
 {
-  "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
+  "buildCommand": "npm run build && mkdir -p dist/pricing dist/checkout dist/dashboard dist/account dist/support/article/loading && for d in pricing checkout dashboard account support support/article/loading; do cp dist/index.html dist/$d/index.html; done",
   "headers": [
     {
       "source": "/(.*)",
