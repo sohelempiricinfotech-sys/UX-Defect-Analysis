@@ -1,6 +1,8 @@
 {
   "siteName": "Northstar Ops Console",
-  "clarityRegistration": "pending",
+  "clarityRegistration": "installed",
+  "clarityProjectId": "xntb26qly8",
+  "clarityProjectUrl": "https://clarity.microsoft.com/projects/view/xntb26qly8",
   "intendedWorkflow": "Weekly UX defect analysis",
   "pages": [
     {

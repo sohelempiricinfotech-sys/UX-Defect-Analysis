@@ -24,3 +24,10 @@ npm run build
 ## Fixture Notes
 
 The app includes deliberate UX defects and ambiguous behaviors for later Clarity, Figma, Linear, Google Sheets, and Teams mock-data setup. Component identifiers are attached with `data-defect-id`, `data-component`, and `data-page` attributes so future seed data can map cleanly to UI elements.
+
+## Microsoft Clarity
+
+The production fixture is registered in Microsoft Clarity as `UX-Defect-Analysis`.
+
+- Project ID: `xntb26qly8`
+- Project URL: `https://clarity.microsoft.com/projects/view/xntb26qly8`
